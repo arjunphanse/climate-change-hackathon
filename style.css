@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'sans-serif';
+}
+h1 {
+     color: #0b68b5;
+     font-size: 3.5rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:  #0b68b5;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-link {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.nav-link:hover {
+    background-color: rgba(255,255,255,0.2)
+}
+.nav-link:active {
+    background-color: rgba(255,255,255,0.3)
+}
+.content {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#search{
+    height: 21px;
+    float: right;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: calc(100% - 60px);
+
+    margin: 40px 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    color: black
+}
+.larger {
+    font-size: 1.5rem;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.surf {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+.surfer {
+    font-size: 1.5rem;
+}
+.linker {
+    color:  #0b68b5;
+    text-decoration: none;
+}
+.linker:hover{
+    text-decoration: underline;
+}
+.space {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 90px;
+  margin-bottom: 100px;
+  margin-right: 60px;
+  margin-left: 90px;
+}
+#date{
+    margin-right: 100px;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+.active{
+    background-color: rgba(255,255,255,0.2);
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#box img {
+    width: 100%;
+    height: 100%;
+}
+.iframe {
+    width
+}
